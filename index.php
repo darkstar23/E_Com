@@ -108,8 +108,8 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="shop.html">Shop</a></li>
+                            <li class="active"><a href="index.php">Home</a></li>
+                            <li><a href="shop.php">Shop</a></li>
                             <li><a href="single-product.html">Single product</a></li>
                             <li><a href="cart.html">Cart</a></li>
                             <li><a href="checkout.html">Checkout</a></li>
@@ -127,7 +127,7 @@
             <!-- Slider -->
             <div class="block-slider block-slider4">
                 <ul class="" id="bxslider-home4" ng-repeat="row in $row">
-<?php include 'php/display.php'; ?>
+        <?php include 'php/display.php'; ?>
                 </ul>
             </div>
             <!-- ./Slider -->
@@ -197,8 +197,6 @@
                                 <img src="img/brands/brand4.png" alt="">
                                 <img src="img/brands/brand5.png" alt="">
                                 <img src="img/brands/brand6.png" alt="">
-                                <img src="img/brands/brand1.png" alt="">
-                                <img src="img/brands/brand2.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -215,7 +213,6 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="footer-about-us">
-
                             <div class="footer-social">
                                 <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                                 <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -250,8 +247,6 @@
                             </ul>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>

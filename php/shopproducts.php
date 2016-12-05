@@ -9,15 +9,13 @@
      $sql = "SELECT * FROM t_phone_latest2";
      $result = mysqli_query($con, $sql);
          while($row = $result->fetch_assoc()){
-            echo '<div class="single-product">';
-            echo '<div class="product-f-image">';
+            echo '<div class="single-shop-product">';
+            echo '<div class="product-upper">';
             echo '<img src="'. $row['img_url'] . '" alt="">';
-            echo '<div class="product-hover">';
-            echo '<a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>';
-            echo '<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>';
             echo '</div>';
-            echo '</div>';
+            echo '<div>';
             echo '<h2><a href="single-product.html">' . $row['title'] . '</a></h2>';
+            echo '</div>';
             echo '<div class="product-carousel-price">';
             echo '<ins>P'. $row['new_price'] . '</ins>';
             echo '<del>P'. $row['orig_price'] . '</del>';

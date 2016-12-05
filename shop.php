@@ -134,16 +134,16 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="single-shop-product">
                         <div class="product-upper">
-                            <img src="img/product-2.jpg" alt="">
+                            <?php include 'php/latest.php'; ?>
                         </div>
-                        <h2><a href="">Lumia</a></h2>
-                        <div class="product-carousel-price">
-                            <ins>P12699.00</ins> <del>P12999.00</del>
-                        </div>  
-                        
-                        <div class="product-option-shop">
-                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
-                        </div>                       
+                        </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-shop-product">
+                        <div class="product-upper">
+                            <?php include 'php/latest.php'; ?>
+                        </div>
+                   
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -151,74 +151,29 @@
                         <div class="product-upper">
                             <?php include 'php/latest.php'; ?>
                         </div>
-                        <h2><a href="">Samsung s4</a></h2>
-                        <div class="product-carousel-price">
-                            <ins>P22899.00</ins> <del>P32999.00</del>
-                        </div>  
-                        
-                        <div class="product-option-shop">
-                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
-                        </div>                       
+                                              
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="single-shop-product">
                         <div class="product-upper">
-                            <img src="img/lg-v20-all-380x380-1.jpg" alt="">
+                           <?php include 'php/latest.php'; ?>
                         </div>
-                        <h2><a href="">LG neon</a></h2>
-                        <div class="product-carousel-price">
-                            <ins>P21399.00</ins> <del>P21999.00</del>
-                        </div>  
-                        
-                        <div class="product-option-shop">
-                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
-                        </div>                       
+                                             
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="single-shop-product">
                         <div class="product-upper">
-                            <img src="img/Experia.jpg" alt="">
-                        </div>
-                        <h2><a href="">Experia A</a></h2>
-                        <div class="product-carousel-price">
-                            <ins>P35199.00</ins> <del>P31999.00</del>
-                        </div>  
-                        
-                        <div class="product-option-shop">
-                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
-                        </div>                       
+                            <?php include 'php/latest.php'; ?>
+                        </div>                      
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="single-shop-product">
                         <div class="product-upper">
-                            <img src="img/P9.jpg" alt="">
-                        </div>
-                        <h2><a href="">P9 (EVEL19)</a></h2>
-                        <div class="product-carousel-price">
-                            <ins>P21299.00</ins> <del>P23999.00</del>
-                        </div>  
-                        
-                        <div class="product-option-shop">
-                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
-                        </div>                       
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-shop-product">
-                        <div class="product-upper">
-                            <img src="img/lgg4_stylus.jpg" alt="">
-                        </div>
-                        <h2><a href="">LG 4 (Stylus)</a></h2>
-                        <div class="product-carousel-price">
-                            <ins>P12899.00</ins> <del>P13999.00</del>
-                        </div>  
-                        
-                        <div class="product-option-shop">
-                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
-                        </div>                       
+                            <?php include 'php/latest.php'; ?>
+                        </div>                      
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -226,29 +181,14 @@
                         <div class="product-upper">
                             <img src="img/product-3.jpg" alt="">
                         </div>
-                        <h2><a href="">Apple new mac book 2015 March :P</a></h2>
-                        <div class="product-carousel-price">
-                            <ins>P21899.00</ins> <del>P23999.00</del>
-                        </div>  
-                        
-                        <div class="product-option-shop">
-                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
-                        </div>                       
+                       <?php include 'php/latest.php'; ?>                     
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="single-shop-product">
                         <div class="product-upper">
-                            <img src="img/product-4.jpg" alt="">
-                        </div>
-                        <h2><a href="">Apple new mac book 2015 March :P</a></h2>
-                        <div class="product-carousel-price">
-                            <ins>P11899.00</ins> <del>P12999.00</del>
-                        </div>  
-                        
-                        <div class="product-option-shop">
-                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
-                        </div>                       
+                            <?php include 'php/latest.php'; ?>
+                        </div>                      
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
