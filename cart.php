@@ -37,11 +37,8 @@
                 <div class="col-md-8">
                     <div class="user-menu">
                         <ul>
-                            <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
-                            <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
-                            <li><a href="cart.html"><i class="fa fa-user"></i> My Cart</a></li>
+                            <li><a href="cart.php"><i class="fa fa-user"></i> My Cart</a></li>
                             <li><a href="checkout.html"><i class="fa fa-user"></i> Checkout</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
                         </ul>
                     </div>
                 </div>
@@ -534,11 +531,9 @@
                     <div class="footer-menu">
                         <h2 class="footer-wid-title">User Navigation </h2>
                         <ul>
-                            <li><a href="#">My account</a></li>
-                            <li><a href="#">Order history</a></li>
-                            <li><a href="#">Wishlist</a></li>
-                            <li><a href="#">Vendor contact</a></li>
-                            <li><a href="#">Front page</a></li>
+                            <li><a href="cart.php">My Cart</a></li>
+                            <li><a href="checkout.html">Checkout</a></li>
+                            <li><a href="index.php">Front page</a></li>
                         </ul>                        
                     </div>
                 </div>
@@ -547,11 +542,8 @@
                     <div class="footer-menu">
                         <h2 class="footer-wid-title">Categories</h2>
                         <ul>
-                            <li><a href="#">Mobile Phone</a></li>
-                            <li><a href="#">Home accesseries</a></li>
-                            <li><a href="#">LED TV</a></li>
-                            <li><a href="#">Computer</a></li>
-                            <li><a href="#">Gadets</a></li>
+                            <li><a href="shop.html">Mobile Phone</a></li>
+                            <li><a href="shop.html">Gadets</a></li>
                         </ul>                        
                     </div>
                 </div>
