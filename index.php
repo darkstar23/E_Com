@@ -109,7 +109,7 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="index.php">Home</a></li>
-                            <li><a href="shop.php">Shop</a></li>
+                            <li><a href="shop.html">Shop</a></li>
                             <li><a href="single-product.html">Single product</a></li>
                             <li><a href="cart.php">Cart</a></li>
                             <li><a href="checkout.html">Checkout</a></li>
