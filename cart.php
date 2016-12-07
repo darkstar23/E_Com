@@ -79,11 +79,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-6">
-                    <div class="shopping-item">
-                        <a href="cart.php">Cart - <span class="cart-amunt">P1100</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
-                    </div>
-                </div>
+                <?php include 'php/cartinfo.php'; ?>
             </div>
         </div>
     </div> <!-- End site branding area -->
@@ -143,7 +139,8 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr class="cart_item">
+                                    <?php include 'php/products.php'; ?>
+                                        <!--tr class="cart_item">
                                             <td class="product-remove">
                                                 <a title="Remove this item" class="remove" href="#">×</a> 
                                             </td>
@@ -171,7 +168,7 @@
                                             <td class="product-subtotal">
                                                 <span class="amount">£15.00</span> 
                                             </td>
-                                        </tr>
+                                        </tr-->
                                         <tr>
                                             <td class="actions" colspan="6">
                                                 <div class="coupon">

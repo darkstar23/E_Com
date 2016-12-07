@@ -79,11 +79,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-6">
-                    <div class="shopping-item">
-                        <a href="cart.php">Cart - <span class="cart-amunt">P1100</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
-                    </div>
-                </div>
+                <?php include 'php/cartinfo.php'; ?>
             </div>
         </div>
     </div> <!-- End site branding area -->
