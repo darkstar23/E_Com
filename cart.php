@@ -123,8 +123,11 @@
             </div>
         </div>
     </div> <!-- End Page title area -->
-    
-                <div class="col-md-8">
+	
+	<div class="single-product-area">
+		<div class="zigzag-bottom"></div>
+		<div class="container">
+			<div class="col-md-8">
                     <div class="product-content-right">
                         <div class="woocommerce">
                             <form method="post" action="#">
@@ -507,11 +510,8 @@
                         </div>                        
                     </div>                    
                 </div>
-            </div>
-        </div>
-    </div>
-
-
+		</div>
+	</div>
     <div class="footer-top-area">
         <div class="zigzag-bottom"></div>
         <div class="container">
