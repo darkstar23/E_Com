@@ -102,7 +102,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="shop.html">Shop page</a></li>
+                        <li><a href="shop.html">Shop</a></li>
                         <li><a href="single-product.html">Single product</a></li>
                         <li class="active"><a href="cart.php">Cart</a></li>
                         <li><a href="checkout.html">Checkout</a></li>
@@ -149,15 +149,15 @@
                                             </td>
 
                                             <td class="product-thumbnail">
-                                                <a href="single-product.html"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/product-thumb-2.jpg"></a>
+                                                <a href="single-product.html"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/Lumia-950XL.jpg"></a>
                                             </td>
 
                                             <td class="product-name">
-                                                <a href="single-product.html">Ship Your Idea</a> 
+                                                <a href="single-product.html">Lumia 950XL</a> 
                                             </td>
 
                                             <td class="product-price">
-                                                <span class="amount">£15.00</span> 
+                                                <span class="amount">Php 11899</span> 
                                             </td>
 
                                             <td class="product-quantity">
@@ -195,9 +195,9 @@
                                 <ul class="products">
                                     <li class="product">
                                         <a href="single-product.html">
-                                            <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="img/product-2.jpg">
-                                            <h3>Ship Your Idea</h3>
-                                            <span class="price"><span class="amount">£20.00</span></span>
+                                            <img width="325" height="325" alt="Lumia 1320" class="attachment-shop_catalog wp-post-image" src="img/product-2.jpg">
+                                            <h3>Lumia 1320</h3>
+                                            <span class="price"><span class="amount">Php 12699</span></span>
                                         </a>
 
                                         <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.html">Select options</a>
@@ -205,9 +205,9 @@
 
                                     <li class="product">
                                         <a href="single-product.html">
-                                            <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="img/product-4.jpg">
-                                            <h3>Ship Your Idea</h3>
-                                            <span class="price"><span class="amount">£20.00</span></span>
+                                            <img width="325" height="325" alt="Galaxy S4" class="attachment-shop_catalog wp-post-image" src="img/product-1.jpg">
+                                            <h3>Galaxy S4</h3>
+                                            <span class="price"><span class="amount">Php 22899</span></span>
                                         </a>
 
                                         <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.html">Select options</a>
