@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 07, 2016 at 02:39 AM
+-- Generation Time: Dec 07, 2016 at 04:50 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 5.6.24
 
@@ -34,6 +34,13 @@ CREATE TABLE `t_cart` (
   `quantity` int(11) NOT NULL,
   `total` decimal(10,0) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `t_cart`
+--
+
+INSERT INTO `t_cart` (`id`, `img_url`, `title`, `price`, `quantity`, `total`) VALUES
+(7, 'img/products/Experia.jpg', 'Samsung Xperia A', '31999', 1, '31999');
 
 -- --------------------------------------------------------
 
@@ -102,6 +109,21 @@ CREATE TABLE `t_product` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Dumping data for table `t_product`
+--
+
+INSERT INTO `t_product` (`id`, `img_url`, `title`, `orig_price`, `new_price`, `description`) VALUES
+(1, 'img/products/samsung.jpg', 'Samsung S4', '1925', '1700', 'Double tap the screen to turn on New settings and processing algorithms for the Nokia Pro Camera Tutorial mode for the Nokia Pro Camera Bracketing mode for the Nokia Pro Camera Stereo audio recording Customisable audio bass filter New settings and processing algorithms for the Nokia Smart Camera Nokia Best Shot in the Nokia Smart Camera captures a moving object multiple times Motion Focus in the Nokia Smart Camera places focus on moving objects Support for colourful profiles in the Display+Touch Settings menu Flip to silence FM Radio support[76][77] Lumia Storage Check Nokia Glance Screen Nokia call+SMS filter Settings app New ringtones (Blom, Breathing, Dawn, Launch, and Wobbles) Up to 10% improved battery life (varies per device) Enables Nokia Video Trimmer and Nokia Video Upload'),
+(2, 'img/products/Huawei-P9.jpg', 'Huawei P9', '23999', '21299', 'Double tap the screen to turn on New settings and processing algorithms for the Nokia Pro Camera Tutorial mode for the Nokia Pro Camera Bracketing mode for the Nokia Pro Camera Stereo audio recording Customisable audio bass filter New settings and processing algorithms for the Nokia Smart Camera Nokia Best Shot in the Nokia Smart Camera captures a moving object multiple times Motion Focus in the Nokia Smart Camera places focus on moving objects Support for colourful profiles in the Display+Touch Settings menu Flip to silence FM Radio support[76][77] Lumia Storage Check Nokia Glance Screen Nokia call+SMS filter Settings app New ringtones (Blom, Breathing, Dawn, Launch, and Wobbles) Up to 10% improved battery life (varies per device) Enables Nokia Video Trimmer and Nokia Video Upload'),
+(3, 'img/products/lg-v20-all-380x380-1.jph', 'LG V20', '21999', '21399', 'Double tap the screen to turn on New settings and processing algorithms for the Nokia Pro Camera Tutorial mode for the Nokia Pro Camera Bracketing mode for the Nokia Pro Camera Stereo audio recording Customisable audio bass filter New settings and processing algorithms for the Nokia Smart Camera Nokia Best Shot in the Nokia Smart Camera captures a moving object multiple times Motion Focus in the Nokia Smart Camera places focus on moving objects Support for colourful profiles in the Display+Touch Settings menu Flip to silence FM Radio support[76][77] Lumia Storage Check Nokia Glance Screen Nokia call+SMS filter Settings app New ringtones (Blom, Breathing, Dawn, Launch, and Wobbles) Up to 10% improved battery life (varies per device) Enables Nokia Video Trimmer and Nokia Video Upload'),
+(4, 'img/products/samsung-galaxy-s7-edge-.jpg', 'Samsung Galaxy Explod 7', '12999', '11899', 'Double tap the screen to turn on New settings and processing algorithms for the Nokia Pro Camera Tutorial mode for the Nokia Pro Camera Bracketing mode for the Nokia Pro Camera Stereo audio recording Customisable audio bass filter New settings and processing algorithms for the Nokia Smart Camera Nokia Best Shot in the Nokia Smart Camera captures a moving object multiple times Motion Focus in the Nokia Smart Camera places focus on moving objects Support for colourful profiles in the Display+Touch Settings menu Flip to silence FM Radio support[76][77] Lumia Storage Check Nokia Glance Screen Nokia call+SMS filter Settings app New ringtones (Blom, Breathing, Dawn, Launch, and Wobbles) Up to 10% improved battery life (varies per device) Enables Nokia Video Trimmer and Nokia Video Upload'),
+(5, 'img/products/lg-gystylus.jpg', 'LG 4 (Stylus)', '13999', '12899', 'Double tap the screen to turn on New settings and processing algorithms for the Nokia Pro Camera Tutorial mode for the Nokia Pro Camera Bracketing mode for the Nokia Pro Camera Stereo audio recording Customisable audio bass filter New settings and processing algorithms for the Nokia Smart Camera Nokia Best Shot in the Nokia Smart Camera captures a moving object multiple times Motion Focus in the Nokia Smart Camera places focus on moving objects Support for colourful profiles in the Display+Touch Settings menu Flip to silence FM Radio support[76][77] Lumia Storage Check Nokia Glance Screen Nokia call+SMS filter Settings app New ringtones (Blom, Breathing, Dawn, Launch, and Wobbles) Up to 10% improved battery life (varies per device) Enables Nokia Video Trimmer and Nokia Video Upload'),
+(6, 'img/products/nokia.jpg', 'Lumia 1320', '12999', '12699', 'Double tap the screen to turn on New settings and processing algorithms for the Nokia Pro Camera Tutorial mode for the Nokia Pro Camera Bracketing mode for the Nokia Pro Camera Stereo audio recording Customisable audio bass filter New settings and processing algorithms for the Nokia Smart Camera Nokia Best Shot in the Nokia Smart Camera captures a moving object multiple times Motion Focus in the Nokia Smart Camera places focus on moving objects Support for colourful profiles in the Display+Touch Settings menu Flip to silence FM Radio support[76][77] Lumia Storage Check Nokia Glance Screen Nokia call+SMS filter Settings app New ringtones (Blom, Breathing, Dawn, Launch, and Wobbles) Up to 10% improved battery life (varies per device) Enables Nokia Video Trimmer and Nokia Video Upload'),
+(7, 'img/products/Macbook-2015.jpg', 'Apple Macbook (2015)', '23999', '21899', 'Double tap the screen to turn on New settings and processing algorithms for the Nokia Pro Camera Tutorial mode for the Nokia Pro Camera Bracketing mode for the Nokia Pro Camera Stereo audio recording Customisable audio bass filter New settings and processing algorithms for the Nokia Smart Camera Nokia Best Shot in the Nokia Smart Camera captures a moving object multiple times Motion Focus in the Nokia Smart Camera places focus on moving objects Support for colourful profiles in the Display+Touch Settings menu Flip to silence FM Radio support[76][77] Lumia Storage Check Nokia Glance Screen Nokia call+SMS filter Settings app New ringtones (Blom, Breathing, Dawn, Launch, and Wobbles) Up to 10% improved battery life (varies per device) Enables Nokia Video Trimmer and Nokia Video Upload'),
+(8, 'img/products/Lumia-950XL.jpg', 'Lumia 950 XL', '12999', '11899', 'Double tap the screen to turn on New settings and processing algorithms for the Nokia Pro Camera Tutorial mode for the Nokia Pro Camera Bracketing mode for the Nokia Pro Camera Stereo audio recording Customisable audio bass filter New settings and processing algorithms for the Nokia Smart Camera Nokia Best Shot in the Nokia Smart Camera captures a moving object multiple times Motion Focus in the Nokia Smart Camera places focus on moving objects Support for colourful profiles in the Display+Touch Settings menu Flip to silence FM Radio support[76][77] Lumia Storage Check Nokia Glance Screen Nokia call+SMS filter Settings app New ringtones (Blom, Breathing, Dawn, Launch, and Wobbles) Up to 10% improved battery life (varies per device) Enables Nokia Video Trimmer and Nokia Video Upload'),
+(9, 'img/products/Xperia-E5.jpg', 'Xperia E5', '13899', '12899', 'Double tap the screen to turn on New settings and processing algorithms for the Nokia Pro Camera Tutorial mode for the Nokia Pro Camera Bracketing mode for the Nokia Pro Camera Stereo audio recording Customisable audio bass filter New settings and processing algorithms for the Nokia Smart Camera Nokia Best Shot in the Nokia Smart Camera captures a moving object multiple times Motion Focus in the Nokia Smart Camera places focus on moving objects Support for colourful profiles in the Display+Touch Settings menu Flip to silence FM Radio support[76][77] Lumia Storage Check Nokia Glance Screen Nokia call+SMS filter Settings app New ringtones (Blom, Breathing, Dawn, Launch, and Wobbles) Up to 10% improved battery life (varies per device) Enables Nokia Video Trimmer and Nokia Video Upload');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -137,7 +159,7 @@ ALTER TABLE `t_product`
 -- AUTO_INCREMENT for table `t_cart`
 --
 ALTER TABLE `t_cart`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `t_phone_latest`
 --
@@ -152,7 +174,7 @@ ALTER TABLE `t_phone_latest2`
 -- AUTO_INCREMENT for table `t_product`
 --
 ALTER TABLE `t_product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
