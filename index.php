@@ -81,7 +81,9 @@
                             </h1>
                         </div>
                     </div>
-
+<?php
+    
+?>
                     <div class="col-sm-6">
                         <div class="shopping-item">
                             <a href="cart.php">Cart - <span class="cart-amunt">P1100</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
