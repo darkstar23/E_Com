@@ -14,7 +14,7 @@
             echo '<img src="'. $row['img_url'] . '" alt="">';
             echo '</div>';
             echo '<div>';
-            echo '<h2><a href="single-product.html">' . $row['title'] . '</a></h2>';
+            echo '<h2><a href="single-product.php">' . $row['title'] . '</a></h2>';
             echo '</div>';
             echo '<div class="product-carousel-price">';
             echo '<ins>P'. $row['new_price'] . '</ins>';

@@ -14,10 +14,10 @@
             echo '<img src="'. $row['img_url'] . '" alt="">';
             echo '<div class="product-hover">';
             echo '<a href="cart.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>';
-            echo '<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>';
+            echo '<a href="single-product.php" class="view-details-link"><i class="fa fa-link"></i> See details</a>';
             echo '</div>';
             echo '</div>';
-            echo '<h2><a href="single-product.html">' . $row['title'] . '</a></h2>';
+            echo '<h2><a href="single-product.php">' . $row['title'] . '</a></h2>';
             echo '<div class="product-carousel-price">';
             echo '<ins>P'. $row['new_price'] . '</ins>';
             echo '<del>P'. $row['orig_price'] . '</del>';
