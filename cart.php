@@ -98,7 +98,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="shop.php">Shop page</a></li>
+                        <li><a href="shop.php">Shop</a></li>
                         <li><a href="single-product.php">Single product</a></li>
                         <li class="active"><a href="cart.php">Cart</a></li>
                         <li><a href="checkout.php">Checkout</a></li>
@@ -146,15 +146,15 @@
                                             </td>
 
                                             <td class="product-thumbnail">
-                                                <a href="single-product.php"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/product-thumb-2.jpg"></a>
+                                                <a href="single-product.php"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/Lumia-950XL.jpg"></a>
                                             </td>
 
                                             <td class="product-name">
-                                                <a href="single-product.php">Ship Your Idea</a> 
+                                                <a href="single-product.php">Lumia 950XL</a> 
                                             </td>
 
                                             <td class="product-price">
-                                                <span class="amount">£15.00</span> 
+                                                <span class="amount">P11899</span> 
                                             </td>
 
                                             <td class="product-quantity">
@@ -166,7 +166,7 @@
                                             </td>
 
                                             <td class="product-subtotal">
-                                                <span class="amount">£15.00</span> 
+                                                <span class="amount">P11899</span> 
                                             </td>
                                         </tr-->
                                         <tr>
@@ -192,9 +192,9 @@
                                 <ul class="products">
                                     <li class="product">
                                         <a href="single-product.php">
-                                            <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="img/product-2.jpg">
-                                            <h3>Ship Your Idea</h3>
-                                            <span class="price"><span class="amount">£20.00</span></span>
+                                            <img width="325" height="325" alt="Lumia 1320" class="attachment-shop_catalog wp-post-image" src="img/product-2.jpg">
+                                            <h3>Lumia 1320</h3>
+                                            <span class="price"><span class="amount">P12699</span></span>
                                         </a>
 
                                         <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.php">Select options</a>
@@ -202,9 +202,9 @@
 
                                     <li class="product">
                                         <a href="single-product.php">
-                                            <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="img/product-4.jpg">
-                                            <h3>Ship Your Idea</h3>
-                                            <span class="price"><span class="amount">£20.00</span></span>
+                                            <img width="325" height="325" alt="Samsung Galaxy S4" class="attachment-shop_catalog wp-post-image" src="img/product-1.jpg">
+                                            <h3>Samsung Galaxy S4</h3>
+                                            <span class="price"><span class="amount">P22899</span></span>
                                         </a>
 
                                         <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.php">Select options</a>
@@ -220,7 +220,7 @@
                                     <tbody>
                                         <tr class="cart-subtotal">
                                             <th>Cart Subtotal</th>
-                                            <td><span class="amount">£15.00</span></td>
+                                            <td><span class="amount">P11899</span></td>
                                         </tr>
 
                                         <tr class="shipping">
@@ -230,7 +230,7 @@
 
                                         <tr class="order-total">
                                             <th>Order Total</th>
-                                            <td><strong><span class="amount">£15.00</span></strong> </td>
+                                            <td><strong><span class="amount">P11899</span></strong> </td>
                                         </tr>
                                     </tbody>
                                 </table>
