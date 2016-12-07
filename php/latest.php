@@ -13,7 +13,7 @@
             echo '<div class="product-f-image">';
             echo '<img src="'. $row['img_url'] . '" alt="">';
             echo '<div class="product-hover">';
-            echo '<a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>';
+            echo '<a href="cart.php" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>';
             echo '<a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>';
             echo '</div>';
             echo '</div>';
