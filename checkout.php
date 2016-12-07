@@ -38,7 +38,7 @@
                     <div class="user-menu">
                         <ul>
                             <li><a href="cart.php"><i class="fa fa-user"></i> My Cart</a></li>
-                            <li><a href="checkout.html"><i class="fa fa-user"></i> Checkout</a></li>
+                            <li><a href="checkout.php"><i class="fa fa-user"></i> Checkout</a></li>
                         </ul>
                     </div>
                 </div>
@@ -102,10 +102,10 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="shop.html">Shop page</a></li>
-                        <li><a href="single-product.html">Single product</a></li>
+                        <li><a href="shop.php">Shop page</a></li>
+                        <li><a href="single-product.php">Single product</a></li>
                         <li><a href="cart.php">Cart</a></li>
-                        <li class="active"><a href="checkout.html">Checkout</a></li>
+                        <li class="active"><a href="checkout.php">Checkout</a></li>
                     </ul>
                 </div>  
             </div>
@@ -142,28 +142,28 @@
                         <h2 class="sidebar-title">Products</h2>
                         <div class="thubmnail-recent">
                             <img src="img/product-thumb-1.jpg" class="recent-thumb" alt="">
-                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                            <h2><a href="single-product.php">Sony Smart TV - 2015</a></h2>
                             <div class="product-sidebar-price">
                                 <ins>$700.00</ins> <del>$100.00</del>
                             </div>                             
                         </div>
                         <div class="thubmnail-recent">
                             <img src="img/product-thumb-1.jpg" class="recent-thumb" alt="">
-                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                            <h2><a href="single-product.php">Sony Smart TV - 2015</a></h2>
                             <div class="product-sidebar-price">
                                 <ins>$700.00</ins> <del>$100.00</del>
                             </div>                             
                         </div>
                         <div class="thubmnail-recent">
                             <img src="img/product-thumb-1.jpg" class="recent-thumb" alt="">
-                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                            <h2><a href="single-product.php">Sony Smart TV - 2015</a></h2>
                             <div class="product-sidebar-price">
                                 <ins>$700.00</ins> <del>$100.00</del>
                             </div>                             
                         </div>
                         <div class="thubmnail-recent">
                             <img src="img/product-thumb-1.jpg" class="recent-thumb" alt="">
-                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                            <h2><a href="single-product.php">Sony Smart TV - 2015</a></h2>
                             <div class="product-sidebar-price">
                                 <ins>$700.00</ins> <del>$100.00</del>
                             </div>                             
@@ -173,11 +173,11 @@
                     <div class="single-sidebar">
                         <h2 class="sidebar-title">Recent Posts</h2>
                         <ul>
-                            <li><a href="single-product.html">Sony Smart TV - 2015</a></li>
-                            <li><a href="single-product.html">Sony Smart TV - 2015</a></li>
-                            <li><a href="single-product.html">Sony Smart TV - 2015</a></li>
-                            <li><a href="single-product.html">Sony Smart TV - 2015</a></li>
-                            <li><a href="single-product.html">Sony Smart TV - 2015</a></li>
+                            <li><a href="single-product.php">Sony Smart TV - 2015</a></li>
+                            <li><a href="single-product.php">Sony Smart TV - 2015</a></li>
+                            <li><a href="single-product.php">Sony Smart TV - 2015</a></li>
+                            <li><a href="single-product.php">Sony Smart TV - 2015</a></li>
+                            <li><a href="single-product.php">Sony Smart TV - 2015</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1000,7 +1000,7 @@
                         <h2 class="footer-wid-title">User Navigation </h2>
                         <ul>
                             <li><a href="cart.php">My Cart</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
+                            <li><a href="checkout.php">Checkout</a></li>
                             <li><a href="index.php">Front page</a></li>
                         </ul>                        
                     </div>
@@ -1010,8 +1010,8 @@
                     <div class="footer-menu">
                         <h2 class="footer-wid-title">Categories</h2>
                         <ul>
-                            <li><a href="shop.html">Mobile Phone</a></li>
-                            <li><a href="shop.html">Gadets</a></li>
+                            <li><a href="shop.php">Mobile Phone</a></li>
+                            <li><a href="shop.php">Gadets</a></li>
                         </ul>                        
                     </div>
                 </div>

@@ -38,7 +38,7 @@
                     <div class="user-menu">
                         <ul>
                             <li><a href="cart.php"><i class="fa fa-user"></i> My Cart</a></li>
-                            <li><a href="checkout.html"><i class="fa fa-user"></i> Checkout</a></li>
+                            <li><a href="checkout.php"><i class="fa fa-user"></i> Checkout</a></li>
                         </ul>
                     </div>
                 </div>
@@ -102,10 +102,10 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="shop.html">Shop page</a></li>
-                        <li><a href="single-product.html">Single product</a></li>
+                        <li><a href="shop.php">Shop page</a></li>
+                        <li><a href="single-product.php">Single product</a></li>
                         <li class="active"><a href="cart.php">Cart</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="checkout.php">Checkout</a></li>
                     </ul>
                 </div>  
             </div>
@@ -149,11 +149,11 @@
                                             </td>
 
                                             <td class="product-thumbnail">
-                                                <a href="single-product.html"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/product-thumb-2.jpg"></a>
+                                                <a href="single-product.php"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/product-thumb-2.jpg"></a>
                                             </td>
 
                                             <td class="product-name">
-                                                <a href="single-product.html">Ship Your Idea</a> 
+                                                <a href="single-product.php">Ship Your Idea</a> 
                                             </td>
 
                                             <td class="product-price">
@@ -194,23 +194,23 @@
                                 <h2>You may be interested in...</h2>
                                 <ul class="products">
                                     <li class="product">
-                                        <a href="single-product.html">
+                                        <a href="single-product.php">
                                             <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="img/product-2.jpg">
                                             <h3>Ship Your Idea</h3>
                                             <span class="price"><span class="amount">£20.00</span></span>
                                         </a>
 
-                                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.html">Select options</a>
+                                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.php">Select options</a>
                                     </li>
 
                                     <li class="product">
-                                        <a href="single-product.html">
+                                        <a href="single-product.php">
                                             <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="img/product-4.jpg">
                                             <h3>Ship Your Idea</h3>
                                             <span class="price"><span class="amount">£20.00</span></span>
                                         </a>
 
-                                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.html">Select options</a>
+                                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.php">Select options</a>
                                     </li>
                                 </ul>
                             </div>
@@ -532,7 +532,7 @@
                         <h2 class="footer-wid-title">User Navigation </h2>
                         <ul>
                             <li><a href="cart.php">My Cart</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
+                            <li><a href="checkout.php">Checkout</a></li>
                             <li><a href="index.php">Front page</a></li>
                         </ul>                        
                     </div>
@@ -542,8 +542,8 @@
                     <div class="footer-menu">
                         <h2 class="footer-wid-title">Categories</h2>
                         <ul>
-                            <li><a href="shop.html">Mobile Phone</a></li>
-                            <li><a href="shop.html">Gadets</a></li>
+                            <li><a href="shop.php">Mobile Phone</a></li>
+                            <li><a href="shop.php">Gadets</a></li>
                         </ul>                        
                     </div>
                 </div>
