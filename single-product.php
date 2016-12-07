@@ -208,13 +208,13 @@
                                         <ins>Php 1700</ins> <del>Php 1925</del>
                                     </div>    
                                     
-                                    <form action="" class="cart">
-                                        <div class="quantity">
-                                            <input type="number" size="4" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
-                                        </div>
-                                        <button class="add_to_cart_button" type="submit">Add to cart</button>
-                                    </form>   
-                                    
+                                    <form action="php/addtocart.php" method="POST">
+                            <input type="text" name="title" width="0" value="Lumia 1320" hidden />
+                            <input type="text" name="price" width="0" value="12699.00" hidden />
+                            <input type="text" name="image" value="img/products/product-2.jpg" hidden />
+                            <input type="submit" value="Add To Cart" />
+                        </form>
+                        <br />
                                     <div class="product-inner-category">
                                         <p>Category: <a href="">Summer</a>. Tags: <a href="">awesome</a>, <a href="">best</a>, <a href="">sale</a>, <a href="">shoes</a>. </p>
                                     </div> 

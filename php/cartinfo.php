@@ -11,7 +11,7 @@
          while($row = $result->fetch_assoc()){
             echo '<div class="col-sm-6">';
             echo '<div class="shopping-item">';
-            echo '<a href="cart.php">Cart - <span class="cart-amunt">'. $row['total'] . '</span>'; 
+            echo '<a href="cart.php">Cart - <span class="cart-amunt">P '. $row['total'] . '</span>'; 
             echo '<i class="fa fa-shopping-cart"></i>'; 
             echo '<span class="product-count">'. $row['count'] .'</span></a>';
             echo '</div>';
